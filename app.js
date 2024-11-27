@@ -3,7 +3,7 @@
 $(function() {
     // Exercise 1: Find all <li> elements within a <ul> and change their text color to blue
     $('#exercise1Button').on('click', () => {
-      $('#exercise1 ul').children().css('color', 'blue'); // Select all <li> elements inside the #exercise1 <ul>
+      $('#exercise1 ul').children().css('color', 'blue'); 
     });
 
      //Exercise 2: Find the parent <div> of a paragraph and change its background color
